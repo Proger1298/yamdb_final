@@ -1,8 +1,9 @@
 from datetime import datetime
+
 from rest_framework import serializers
 from rest_framework.relations import SlugRelatedField
+from reviews.models import Category, Comment, Genre, Review, Title
 from users.models import User
-from reviews.models import Category, Genre, Title, Comment, Review
 
 
 class ConfirmationCodeSerializer(serializers.Serializer):

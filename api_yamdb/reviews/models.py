@@ -1,6 +1,7 @@
 from datetime import datetime
-from django.db import models
+
 from django.core.validators import MaxValueValidator
+from django.db import models
 from users.models import User
 
 SLICE_CONST = 10  # Константа для обрезки в методе __str__
