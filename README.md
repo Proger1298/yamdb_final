@@ -26,9 +26,12 @@ DB_PORT=... # порт для подключения к БД
 
 Для сборки и запуска контейнеров
 ``` docker-compose up -d --build ```
+
 Затем последовательно выполните комнады
 ```docker-compose exec web python manage.py migrate```
+
 ```docker-compose exec web python manage.py createsuperuser``` - для создания супер пользователя Django
+
 ```docker-compose exec web python manage.py collectstatic --no-input```
 
 **Ресурсы API YaMDb:**
