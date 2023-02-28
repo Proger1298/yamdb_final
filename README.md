@@ -1,4 +1,10 @@
 [![yamdb_workflow](https://github.com/Proger1298/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Proger1298/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
+IP: 
+```
+158.160.47.169
+```
+
 # Описание:
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: "Книги", "Фильмы", "Музыка". Список категорий (Category) может быть расширен.
@@ -27,7 +33,8 @@ DB_PORT=... # порт для подключения к БД
 Для сборки и запуска контейнеров
 ``` docker-compose up -d --build ```
 
-Затем последовательно выполните комнады
+Затем последовательно выполните комнады:
+
 ```docker-compose exec web python manage.py migrate```
 
 ```docker-compose exec web python manage.py createsuperuser``` - для создания супер пользователя Django
