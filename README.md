@@ -1,9 +1,3 @@
-[![yamdb_workflow](https://github.com/Proger1298/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Proger1298/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
-IP: 
-```
-158.160.47.169
-```
 # Описание:
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: "Книги", "Фильмы", "Музыка". Список категорий (Category) может быть расширен.
@@ -260,5 +254,6 @@ Django REST Framework 3.12.4
 **Антон Кучеренко** https://github.com/Proger1298
 
 **Антон Лобов** https://github.com/Lob-starr
+
 
 **Виталий Станкевич** https://github.com/vital00000
